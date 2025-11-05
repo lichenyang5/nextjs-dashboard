@@ -5,3 +5,8 @@
 配置文件：你还会注意到在应用程序的根目录下有 next.config.ts 等配置文件。这些文件大多数是在你使用 create-next-app 创建新项目时创建并预配置的。在本课程中，你不需要修改它们
 
 Tailwind 是 css 框架，通过允许直接在 React 代码中编写 css 类名，来实现快速的样式设置。
+
+next/font/google 是 Next.js 提供的一个字体库，它允许你在 Next.js 应用程序中使用 Google 字体。
+在本项目中，我们使用 Inter 字体，它是一个等宽字体，非常适合代码显示。
+我们在 /app/ui/fonts.ts 中配置了 Inter 字体，将其导入到 /app/layout.tsx 中，并将其应用到整个应用程序。
+antialiased 是一个 Tailwind 类名，它会为文本添加抗锯齿效果，使文本看起来更平滑。
