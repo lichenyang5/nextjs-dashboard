@@ -1,5 +1,7 @@
-## Next.js App Router Course - Starter
+/app：包含应用程序的所有路由、组件和逻辑，您主要将在这里进行工作。
+/app/lib : 包含应用程序中使用的函数，例如可重用的工具函数和数据获取函数。
+/app/ui : 包含应用程序的所有 UI 组件，例如卡片、表格和表单。为了节省时间，我们已经预先为这些组件进行了样式设置。
+/public : 包含应用程序的所有静态资源，例如图像。
+配置文件：你还会注意到在应用程序的根目录下有 next.config.ts 等配置文件。这些文件大多数是在你使用 create-next-app 创建新项目时创建并预配置的。在本课程中，你不需要修改它们
 
-This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
-
-For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
+Tailwind 是 css 框架，通过允许直接在 React 代码中编写 css 类名，来实现快速的样式设置。
